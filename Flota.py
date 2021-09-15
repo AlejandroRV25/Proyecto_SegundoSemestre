@@ -11,7 +11,7 @@ class Flota:
         bus = Buses(placa, color, tarifa, empresa, chofer, parada1, parada2, parada3, parada4, parada5, parada6)
         self.buses.append(bus)
     
-    def HorariosChofer():
+    def horariosChofer():
         if Tiempo.getHour() < 600 or Tiempo.getHour() > 2159:
             print('Usted no se encuentra en el horario de funcionamiento.')
         else:
