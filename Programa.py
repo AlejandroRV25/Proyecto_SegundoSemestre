@@ -30,7 +30,7 @@ def destino():
 	Buscador = input('Digite su destino: ')
 	Buscador = confirmar(normalizar(Buscador)); return Buscador
 
-flota.generacionBuses(Flota.HorariosChofer())
+flota.generacionBuses(Flota.horariosChofer())
 
 verificacion_paradas = int(input('Digite "1" si desea buscar una ruta con más de una parada, de lo contrario digite "0": '))
 while 0 != verificacion_paradas != 1:
